@@ -2,19 +2,31 @@ body {
     font-family: Arial;
     background: #f4f4f4;
     text-align: center;
+    transition: 0.3s;
+}
+
+.dark {
+    background: #121212;
+    color: white;
 }
 
 .container {
     background: white;
-    width: 350px;
-    margin: 100px auto;
+    width: 400px;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.dark .container {
+    background: #1e1e1e;
 }
 
 input {
     padding: 10px;
-    width: 70%;
+    width: 65%;
+    margin: 5px;
 }
 
 button {
@@ -36,4 +48,8 @@ li {
 .completed {
     text-decoration: line-through;
     color: gray;
+}
+
+.filters button {
+    padding: 5px 10px;
 }
